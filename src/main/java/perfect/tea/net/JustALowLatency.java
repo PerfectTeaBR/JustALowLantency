@@ -6,6 +6,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class JustALowLatency {
 
@@ -13,7 +14,7 @@ public class JustALowLatency {
         try:
         System.out.println("--> Task " + id + " initializated.")
         Thread.sleep(millisseconds);
-        System.out.println("<- Tarefa " + id + " finalizada.");
+        System.out.println("<- Task " + id + " finished.");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
@@ -24,4 +25,5 @@ public class JustALowLatency {
         final int NUM_TASKS = 10;
         final int SIMULATED_LATENCY_MS = 500;
     }
+
 }
