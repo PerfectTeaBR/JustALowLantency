@@ -4,3 +4,6 @@
 
  JustALowLatency é um sistema feito em Java para servidores de Minecraft Java!
  O Sistema é feito em Java e pronto para ser Adicionado ao seu servidor!
+
+<h1 align="center">Oque é o JustALowLatency?</h1>
+Este projeto foi feito para calcular a Latência de Servidores do Minecraft Java. Assim você pode calcular a latência e provavelmente, contribuir neste projeto!
