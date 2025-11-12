@@ -11,12 +11,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class JustALowLatency {
 
     private static void simulateOperation(int millisseconds, int id) {
-        try:
+        try {
         System.out.println("--> Task " + id + " initializated.")
         Thread.sleep(millisseconds);
         System.out.println("<- Task " + id + " finished.");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
+         }
         }
     }
 
@@ -27,3 +28,4 @@ public class JustALowLatency {
     }
 
 }
+
