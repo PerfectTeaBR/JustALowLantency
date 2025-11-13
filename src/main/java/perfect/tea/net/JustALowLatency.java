@@ -26,5 +26,8 @@ public final class AprendendoPluginsJava extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        getLogger().info("Plugin Desativado com Sucesso!")
+            Bukkit.getConsoleSender().sendMessage("O Plugin foi desativado!")
     }
 }
+
