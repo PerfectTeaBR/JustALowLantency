@@ -8,24 +8,23 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class JustALowLatency {
+public final class AprendendoPluginsJava extends JavaPlugin {
 
-    private static void simulateOperation(int millisseconds, int id) {
-        try {
-        System.out.println("--> Task " + id + " initializated.")
-        Thread.sleep(millisseconds);
-        System.out.println("<- Task " + id + " finished.");
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-         }
-        }
+    @Override
+    public void onEnable() {
+        getLogger().info("plugin ligado com sucesso!");
+        Bukkit.getConsoleSender().sendMessage("Plugin  iniciado!");
+        // Plugin startup logic
+
     }
 
-    public static void main(String[] args) {
-        
-        final int NUM_TASKS = 10;
-        final int SIMULATED_LATENCY_MS = 500;
+    @Override
+    public void onLoad() {
+        getLogger().info("Carregando ...");
     }
 
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
 }
-

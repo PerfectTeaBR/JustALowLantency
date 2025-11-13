@@ -1,0 +1,4 @@
+name: JustALowLatency for Java
+version: '1.0-SNAPSHOT'
+main: net.perfect.tea.justalowlatency
+api-version: '1.21'
