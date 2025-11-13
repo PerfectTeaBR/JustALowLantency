@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class AprendendoPluginsJava extends JavaPlugin {
+public final class JustALowLatency extends JavaPlugin {
 
     @Override
     public void onEnable() {
@@ -30,4 +30,5 @@ public final class AprendendoPluginsJava extends JavaPlugin {
             Bukkit.getConsoleSender().sendMessage("O Plugin foi desativado!")
     }
 }
+
 
