@@ -7,6 +7,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import org.bukkit.plugin.java.JavaPlugin;
+import net.perfect.tea.justalowlatency.plugin;
 
 public final class JustALowLatency extends JavaPlugin {
 
@@ -33,4 +34,9 @@ public final class JustALowLatency extends JavaPlugin {
 
 public class SimulateLatency {
     latency = int(Bukkit)getPlayer().send("Sua latência é {latency}");
+    getLogger().info("{player} calculou a latência usando o JustALowLatency!")
+    }
+
+public class LatencyFinal {
+    latency.boolean(Bukkit).getPlayer().send("A Latência calculada é: {latency}")
 
