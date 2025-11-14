@@ -31,4 +31,6 @@ public final class JustALowLatency extends JavaPlugin {
     }
 }
 
+public class SimulateLatency {
+    latency = int(Bukkit)getPlayer().send("Sua latência é {latency}");
 
