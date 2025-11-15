@@ -37,6 +37,13 @@ public class SimulateLatency {
     getLogger().info("{player} calculou a latência usando o JustALowLatency!")
     }
 
+public class VerifyLatency {
+    try {
+    long ping = LowLatencyCalculator.calcularPing(address, port);
+        System.out.println("A latência do servidor " + endereco + ":" + porta + " é de " + ping + "ms.");
+ }  catch (Exception e) {
+            System.err.println("Erro ao calcular a latência: " + e.getMessage());
+            getPlayer().getMessage("Erro ao Calcular a Latência usando o JustALowLatencyCalculator - PerfectTea")
+}          
 public class LatencyFinal {
     latency.boolean(Bukkit).getPlayer().send("A Latência calculada é: {latency}")
-
