@@ -22,7 +22,7 @@ Você pode ver que existe um arquivo **YAML,** chamado <a href="https://github.c
 ## 💫 Compilação
 Para compilar o **JustALowLatency** siga estes passos:
 
-- Tenha o `JDK 8` (ou superior) instalado em sua máquina.
+- Tenha o `JDK 21` (ou superior) instalado em sua máquina.
 - Baixe o **IntelliJ Idea**
 - Tenha um servidor de Minecraft rodando o [PaperMC](https://github.com/PaperMC/Paper) em sua máquina.
 - Clone o repositório se você quiser ver o código fonte rodando em sua máquina.
