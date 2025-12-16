@@ -6,15 +6,14 @@
 
 **Modo simples de como calcular a Latência do Seu Servidor do Minecraft Java, simples e eficaz.**
 
-## 🙋 Como Doar?
-Existem muitos  repositórios em nossa organização no GitHub, se você checar um botão chamado Sponsor, clique nele para doar, ou clique na badge de donate!
+
 
 ## 📦 Dependências
 Você pode ver que existe um arquivo **YAML,** chamado <a href="https://github.com/PerfectTeaBR/JustALowLantency/blob/main/src/main/java/perfect/tea/net/resources/plugin.yml">"plugin.yml"</a> na pasta resources, é neste arquivo que você irá ver boa parte da configuração do plugin de Minecraft Java.
 
 | Nome  | Criadores e Mantedores |
 | ------------- | ------------- |
-| [Kotlin](https://kotlinlang.org) | JetBrains  |
+| [Kotlin](https://java.dev) | Oracle  |
 | [Paper](https://github.com/PaperMC/Paper) | Mojang ([Minecraft Vanilla](https://minecraft.net/pt-br/download/server)) |
 | [Bukkit](https://dev.bukkit.org) | BukkitMC |
 
